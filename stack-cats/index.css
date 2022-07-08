@@ -1,0 +1,29 @@
+.stacks {
+    display: flex;
+    flex-direction: column;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    margin: 10px;
+    height: 79px;
+}
+
+.selected-stack {
+    background-color: greenyellow;
+}
+
+.code {
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.element {
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+}
